@@ -10,6 +10,6 @@ public class Registration {
         System.out.println("Kérem adjon meg még egy email címet");
         String mail = scanner.nextLine();
 
-        System.out.println("Ön a " + name + "felhasználói névvel és " + mail + "email címmel regisztrált!");
+        System.out.println("Ön a " + name + " felhasználói névvel és " + mail + " email címmel regisztrált!");
     }
 }
