@@ -1,4 +1,4 @@
-package classstructures;
+package classstructureattributes;
 
 import java.util.Scanner;
 
@@ -21,3 +21,4 @@ public class ClientMain {
     }
 
 }
+

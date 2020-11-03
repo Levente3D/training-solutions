@@ -1,4 +1,4 @@
-package classstructures;
+package classstructureattributes;
 
 public class Client {
     String cname;
