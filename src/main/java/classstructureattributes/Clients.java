@@ -10,6 +10,6 @@ public class Clients {
     }
 
     public void setName(String) {
-        this.name = name;
+        this.cname = cname;
     }
 }
