@@ -1,8 +1,13 @@
 package classstructureattributes;
 
-public class Client {
+public class Clients {
     String cname;
     int birth;
     String address;
 
+    public void setAddress(String) {
+    }
+
+    public void setName(String) {
+    }
 }

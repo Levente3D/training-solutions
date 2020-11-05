@@ -2,21 +2,21 @@ package classstructureattributes;
 
 import java.util.Scanner;
 
-public class ClientMain {
+public class ClientsMain {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Client client = new Client();
+        Clients clients = new Clients();
         System.out.println("Kérem adja meg a nevét!");
-        client.cname = scanner.nextLine();
+        clients.cname = scanner.nextLine();
         System.out.println("Kérem adja meg a születési dátumát!");
-        client.birth = scanner.nextInt();
-        client.address = scanner.nextLine();
+        clients.birth = scanner.nextInt();
+        clients.address = scanner.nextLine();
         System.out.println("Kérem adja meg a lakcímét!");
-        client.address = scanner.nextLine();
-        System.out.println("Az ön neve: " + client.cname);
-        System.out.println("Az ön születési ideje: " + client.birth);
-        System.out.println("Az ön lakcíme: " + client.address);
+        clients.address = scanner.nextLine();
+        System.out.println("Az ön neve: " + clients.cname);
+        System.out.println("Az ön születési ideje: " + clients.birth);
+        System.out.println("Az ön lakcíme: " + clients.address);
 
     }
 
