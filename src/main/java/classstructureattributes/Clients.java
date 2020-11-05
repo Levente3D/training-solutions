@@ -6,8 +6,10 @@ public class Clients {
     String address;
 
     public void setAddress(String) {
+        this.address = address;
     }
 
     public void setName(String) {
+        this.name = name;
     }
 }
