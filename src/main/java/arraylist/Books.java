@@ -32,6 +32,9 @@ public class Books {
         books.add("Az");
         books.add("A sötét torony");
 
-     //   System.out.println(books.getTitles());
+        //   System.out.println(books.getTitles());
 
         System.out.println(books.findAllByPrefix("sötét"));
+
+    }
+}
