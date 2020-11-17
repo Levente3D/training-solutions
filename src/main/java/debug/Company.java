@@ -12,13 +12,13 @@ public class Company {
     }
 
     public void addEmployee(Employee employee){
-        employees.add(employees);
+        employees.add(employee);
     }
 
     public Employee findEmployeeByName(String name){
         for (Employee employee : employees){
             if (employee.getName().equals(name)){
-                return name;
+                return employee;
             }
         }
         return null;
