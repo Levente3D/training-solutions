@@ -12,11 +12,10 @@ public class Skill {
         return level;
     }
 
-    public Skill(String name, int level)
+   // public Skill(String name, int level);
 
-    public Create(String name; int level){
-        return name + "(" + level + ")";
+    // public Create(String name; int level){
+       // return String name + "(" + level + ")";
     }
 
 
-}
