@@ -1,9 +1,7 @@
 package exam03retake02;
 
 import org.junit.jupiter.api.Test;
-
 import javax.swing.plaf.nimbus.State;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
